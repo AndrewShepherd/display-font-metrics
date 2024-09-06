@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisplayMeasurements", "DisplayMeasurements\DisplayMeasurements.csproj", "{EC3CC800-05A2-4C46-B1AA-BFEB3A525D9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D298ACB-1014-4D92-A953-8FE23850ABEF} = {0D298ACB-1014-4D92-A953-8FE23850ABEF}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSharpWpf", "ImageSharpWpf\ImageSharpWpf.csproj", "{0D298ACB-1014-4D92-A953-8FE23850ABEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3CC800-05A2-4C46-B1AA-BFEB3A525D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3CC800-05A2-4C46-B1AA-BFEB3A525D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3CC800-05A2-4C46-B1AA-BFEB3A525D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3CC800-05A2-4C46-B1AA-BFEB3A525D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D298ACB-1014-4D92-A953-8FE23850ABEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D298ACB-1014-4D92-A953-8FE23850ABEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D298ACB-1014-4D92-A953-8FE23850ABEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D298ACB-1014-4D92-A953-8FE23850ABEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AF8A8D8-CECE-475A-94D7-6B75A3587D56}
+	EndGlobalSection
+EndGlobal
